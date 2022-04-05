@@ -1,0 +1,32 @@
+git clone https://github.com/repepeat/SI_2022_lab1_206054.git
+cd SI_2022_lab1_206054
+notepad shopping_list.txt
+git add shopping_list.txt
+git commit -m "Add 5 items to the shopping list"
+git add shopping_list.txt
+git commit -m "Add quantities to the items"
+git branch branch1
+git branch branch2
+git pull
+git push
+git checkout branch1
+git add shopping_list.txt
+git commit -m "Change quantity of item #5"
+git checkout master
+git add shopping_list.txt
+git commit -m "Change quantiti of item #2"
+git pull
+git push
+git checkout branch2
+git add shopping_list.txt
+git commit -m "Modify item #4"
+git add shopping_list.txt
+git commit --amend -m "Modify item #4 and add item #6"
+git checkout master
+git merge branch1
+	Нема конфликт, направен merge со 'ort' стратегија.
+git merge branch2
+	Појавен конфликт со тип 'content', решен преку промена на содржината на
+	shopping_list.txt.
+git add shopping_list.txt
+git commit -m "Resolved conflict"
