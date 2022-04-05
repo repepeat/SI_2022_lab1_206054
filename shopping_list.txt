@@ -1,5 +1,6 @@
 Juice x 1
-Eggs x 6
+Eggs x 5
 Bread x 3
-Milk x 2
-Mustard x 1
+Cheese x 2
+Mustard x 2
+Crackers x 1
